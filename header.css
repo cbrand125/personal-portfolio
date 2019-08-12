@@ -1,7 +1,11 @@
 header {
   font-size: 1.5vw;
   margin: 4vh 1vw;
-  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  width: 49%;
 }
 
 nav a {
@@ -17,4 +21,12 @@ nav a {
 nav a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
+}
+
+.home {
+  text-align: left;
+}
+
+.about {
+  text-align: right;
 }
