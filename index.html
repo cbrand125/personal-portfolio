@@ -4,28 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Cody Brand</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/pages/about.html">About</a>
+        <a href="/" class="home">Home</a>
+        <a href="/pages/about.html" class="about">About</a>
       </nav>
-      <hr />
     </header>
     <main>
-      <section>
-        <img
-          src="images/splash.jpg"
-          alt="Cody Brand Splash"
-          style="width: 100%; max-height: 500px; object-fit: cover; object-position: 50% 35%;"
-        />
-        <h1>Cody Brand</h1>
-        <h3>
+      <section id="hero">
+        <h1 class="title">Cody Brand</h1>
+        <h2 class="subtitle">
           Enjoy your leisurely perusal of my vaunted software development
           projects.
-        </h3>
+        </h2>
         <form>
           <button type="submit" formaction="pages/about.html">
             About Me
@@ -36,11 +31,11 @@
         <img
           src="images/flowlogo.png"
           alt="Flow Homepage Logo"
-          style="max-width: 35%; max-height: 200px; object-fit: cover; object-position: 50% 35%;"
+          class="postThumb"
         />
-        <h4>
+        <h3>
           Flow Homepage
-        </h4>
+        </h3>
         <p>
           This is an new home page for your browser that offers comprehensive
           and visual tab management among other convenience features. Also, it
@@ -56,11 +51,11 @@
         <img
           src="images/mtg.png"
           alt="Magic: the Gathering Project Logo"
-          style="max-width: 35%; max-height: 200px; object-fit: cover; object-position: 50% 35%;"
+          class="postThumb"
         />
-        <h4>
+        <h3>
           Magic: the Gathering Land Calculator
-        </h4>
+        </h3>
         <p>
           This is a mobile and web app meant to help a deck-builder form a
           mathmatically correct land base for their deck. It does a lot of the
@@ -76,11 +71,11 @@
         <img
           src="images/blackjack.png"
           alt="Blackjack Cards"
-          style="max-width: 35%; max-height: 200px; object-fit: cover; object-position: 50% 35%;"
+          class="postThumb"
         />
-        <h4>
+        <h3>
           Console Blackjack
-        </h4>
+        </h3>
         <p>
           This is a quick and fun project meant to show off coding techniques
           while building a fun and slightly addictive console-based blackjack

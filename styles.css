@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+@import 'reset.css';
+@import 'header.css';
+@import 'hero.css';
+
+html {
+  font-family: 'Overpass Mono', monospace;
+}
+
+h1 {
+  font-size: 4vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.postThumb {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  object-position: 50% 35%;
+}
