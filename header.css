@@ -1,6 +1,6 @@
 header {
   font-size: 1.5vw;
-  margin: 4vh 1vw;
+  padding: 1vw 1vw;
 }
 
 nav {
@@ -8,25 +8,25 @@ nav {
   width: 49%;
 }
 
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  padding: 0.5vw 1vw;
-  transition: box-shadow 0.4s;
-  text-decoration: underline;
-  border-radius: 1vw;
-}
-
-nav a:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
-}
-
-.home {
+.leftNav {
   text-align: left;
 }
 
-.about {
+.rightNav {
   text-align: right;
+}
+
+nav > a {
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(280, 57%, 25%);
+  padding: 0.5vw 0.5vw;
+  transition: border 0.2s;
+  margin-left: 2.5vw;
+}
+
+nav a:hover {
+  cursor: pointer;
+  padding: 0.4vw 0.5vw;
+  border-bottom: 0.1vw solid hsl(280, 57%, 25%);
 }

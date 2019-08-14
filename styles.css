@@ -5,6 +5,9 @@
 
 html {
   font-family: 'Overpass Mono', monospace;
+  background-color: hsl(280, 57%, 98%);
+  color: hsl(280, 57%, 25%);
+  font-size: 1.25vw;
 }
 
 h1 {
@@ -22,9 +25,33 @@ h3 {
   margin: 0;
 }
 
+button {
+  background: none;
+  cursor: pointer;
+  padding: 0.5vw 0.5vw;
+  font-size: 1.5vw;
+  color: hsl(280, 57%, 25%);
+  border: 1px solid hsl(280, 57%, 25%);
+  border-radius: 1vw;
+  transition: box-shadow 0.2s;
+}
+button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .postThumb {
   width: 20vw;
   height: 20vw;
   object-fit: cover;
   object-position: 50% 35%;
+}
+
+.mainContent {
+  display: grid;
+  width: 65%;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5vw 0vw;
+  align-items: center;
+  justify-items: center;
+  margin: 5vw auto;
 }

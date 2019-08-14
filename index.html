@@ -9,11 +9,11 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/" class="home">Home</a>
+      <nav class="leftNav">
+        Cody Brand
       </nav>
-      <!-- TODO: better nav css -->
-      <nav style="text-align: right">
+      <nav class="rightNav">
+        <a href="/" class="home">Home</a>
         <a href="/pages/about.html" class="about">About</a>
       </nav>
     </header>
@@ -21,8 +21,7 @@
       <section id="hero">
         <h1 class="title">Cody Brand</h1>
         <h2 class="subtitle">
-          Enjoy your leisurely perusal of my vaunted software development
-          projects.
+          Enjoy your leisurely perusal of my vaunted dev projects.
         </h2>
         <form>
           <button type="submit" formaction="pages/about.html">
@@ -30,72 +29,79 @@
           </button>
         </form>
       </section>
-      <section>
+      <section class="mainContent">
         <img
           src="images/flowlogo.png"
           alt="Flow Homepage Logo"
           class="postThumb"
         />
-        <h3>
-          Flow Homepage
-        </h3>
-        <p>
-          This is an new home page for your browser that offers comprehensive
-          and visual tab management among other convenience features. Also, it
-          changes depending on the time of day to show only the most relevant
-          tools and information.
-        </p>
-        <form>
-          <button type="submit" formaction="pages/project.html">
-            <input type="hidden" name="project" value="flow" />
+        <div>
+          <h3>
             Flow Homepage
-          </button>
-        </form>
+          </h3>
+          <p>
+            This is an new home page for your browser that offers comprehensive
+            and visual tab management among other convenience features. Also, it
+            changes depending on the time of day to show only the most relevant
+            tools and information.
+          </p>
+          <form>
+            <button type="submit" formaction="pages/project.html">
+              <input type="hidden" name="project" value="flow" />
+              Flow
+            </button>
+          </form>
+        </div>
         <img
           src="images/mtg.png"
           alt="Magic: the Gathering Project Logo"
           class="postThumb"
         />
-        <h3>
-          Magic: the Gathering Land Calculator
-        </h3>
-        <p>
-          This is a mobile and web app meant to help a deck-builder form a
-          mathmatically correct land base for their deck. It does a lot of the
-          heavy-lifting and makes deck-building a lot more accessible to people
-          who are not professional players of the game.
-        </p>
-        <form>
-          <button type="submit" formaction="pages/project.html">
-            <input type="hidden" name="project" value="mtg" />
-            M:tG Land Calculator
-          </button>
-        </form>
+        <div>
+          <h3>
+            Magic: the Gathering Land Calculator
+          </h3>
+          <p>
+            This is a mobile and web app meant to help a deck-builder form a
+            mathmatically correct land base for their deck. It does a lot of the
+            heavy-lifting and makes deck-building a lot more accessible to
+            people who are not professional players of the game.
+          </p>
+          <form>
+            <button type="submit" formaction="pages/project.html">
+              <input type="hidden" name="project" value="mtg" />
+              Land Calculator
+            </button>
+          </form>
+        </div>
+
         <img
           src="images/blackjack.png"
           alt="Blackjack Cards"
           class="postThumb"
         />
-        <h3>
-          Console Blackjack
-        </h3>
-        <p>
-          This is a quick and fun project meant to show off coding techniques
-          while building a fun and slightly addictive console-based blackjack
-          game.
-        </p>
-        <form>
-          <button type="submit" formaction="pages/project.html">
-            <input type="hidden" name="project" value="blackjack" />
+        <div>
+          <h3>
             Console Blackjack
-          </button>
-        </form>
+          </h3>
+          <p>
+            This is a quick and fun project meant to show off coding techniques
+            while building a fun and slightly addictive console-based blackjack
+            game.
+          </p>
+          <form>
+            <button type="submit" formaction="pages/project.html">
+              <input type="hidden" name="project" value="blackjack" />
+              Blackjack
+            </button>
+          </form>
+        </div>
         <!-- TODO: Tyco Security Tag -->
       </section>
     </main>
-    <footer>
-      <span>© 2019 Cody Brand</span>
-      <a href="mailto: cbrand@talentpath.com">Email Me!</a>
+    <footer style="text-align: right; margin: 0vw 1vw; font-size: 1vw;">
+      <span>© 2019 Cody Brand /// </span>
+      <a href="mailto: cbrand@talentpath.com">Email Me</a>
     </footer>
   </body>
 </html>
