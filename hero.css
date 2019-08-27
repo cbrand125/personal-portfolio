@@ -7,18 +7,18 @@
   background-position: 50% 35%;
   padding: 5vw 5vw;
   text-align: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  margin-top: 6vh;
 }
 
 .title,
 .subtitle {
   color: hsl(280, 57%, 98%);
-  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
-    0.5px 0.5px 0 black;
-  width: 65%;
+  width: 100%;
+  margin: 3vh;
 }
 
 #hero button {

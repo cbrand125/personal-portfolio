@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 @import 'reset.css';
 @import 'header.css';
 @import 'hero.css';
 
 html {
-  font-family: 'Overpass Mono', monospace;
-  background-color: hsl(280, 57%, 98%);
+  font-family: 'Exo 2', sans-serif;
+  background-color: hsl(280, 57%, 97%);
   color: hsl(280, 57%, 25%);
   font-size: 1.25vw;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(280, 57%, 25%);
 }
 
 h1 {
@@ -50,7 +55,7 @@ button:hover {
   display: grid;
   width: 65%;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 5vw 0vw;
+  grid-gap: 5vw 2.5vw;
   align-items: center;
   justify-items: center;
   margin: 5vw auto;
