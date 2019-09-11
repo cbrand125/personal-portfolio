@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-@import 'reset.css';
-@import 'header.css';
-@import 'hero.css';
+@import '/reset.css';
+@import '/header.css';
+@import '/footer.css';
 
 html {
   font-family: 'Exo 2', sans-serif;
   background-color: hsl(280, 57%, 97%);
   color: hsl(280, 57%, 25%);
   font-size: 1.25vw;
+  scroll-behavior: smooth;
 }
 
 a {

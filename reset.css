@@ -1,9 +1,8 @@
-body {
+body,
+ul,
+img,
+section,
+pre {
   margin: 0;
   padding: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
 }
