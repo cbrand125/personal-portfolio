@@ -1,5 +1,4 @@
 main {
-  height: 82.5vh;
   text-align: center;
   width: 65%;
   display: flex;
@@ -9,11 +8,18 @@ main {
   justify-content: space-around;
   justify-items: center;
   margin: 12.5vh auto 0 auto;
+  min-height: 82.5vh;
 }
 
 .screenshot {
-  width: auto;
-  height: 40vh;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   object-position: 50% 35%;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 1rem;
 }
