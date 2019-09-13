@@ -1,6 +1,6 @@
 #hero {
   background: linear-gradient(rgba(76, 27, 100, 0.1), rgba(76, 27, 100, 0.5)),
-    url(images/splash.JPG);
+    url(/images/splash.JPG);
   height: 70vh;
   min-height: 250px;
   background-size: cover;

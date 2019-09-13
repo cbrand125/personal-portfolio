@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-@import '/reset.css';
-@import '/header.css';
-@import '/footer.css';
+@import '/styles/reset.css';
+@import '/styles/header.css';
+@import '/styles/footer.css';
 
 html {
   font-family: 'Exo 2', sans-serif;
