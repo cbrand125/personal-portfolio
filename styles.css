@@ -7,7 +7,7 @@ html {
   font-family: 'Exo 2', sans-serif;
   background-color: hsl(280, 57%, 97%);
   color: hsl(280, 57%, 25%);
-  font-size: calc(16px + 0.5vw);
+  font-size: calc(16px + 0.25vw);
   scroll-behavior: smooth;
 }
 
