@@ -42,19 +42,32 @@ button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.postThumb {
+.projectThumb {
   width: 20vw;
   height: 20vw;
   object-fit: cover;
   object-position: 50% 35%;
+  margin-right: 1rem;
 }
 
-.mainContent {
-  display: grid;
+.projectList {
+  display: flex;
+  flex-direction: column;
   width: 65%;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 5vw 2.5vw;
   align-items: center;
   justify-items: center;
   margin: 5vw auto;
+}
+
+.project:first-child {
+  margin-top: 10vh;
+}
+
+.project {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
