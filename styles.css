@@ -44,7 +44,6 @@ button:hover {
 
 .projectThumb {
   width: 20vw;
-  height: 20vw;
   object-fit: cover;
   object-position: 50% 35%;
   margin-right: 1rem;
