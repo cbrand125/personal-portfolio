@@ -21,12 +21,12 @@
   margin: 3vh;
 }
 
-#hero .subtitle a {
+#hero .subtitle a * {
   color: hsl(280, 57%, 98%);
   border-bottom: 0.1vw solid transparent;
   transition: border-color 0.2s;
 }
-#hero .subtitle a:hover {
+#hero .subtitle a:hover * {
   border-bottom: 0.1vw solid hsl(280, 57%, 98%);
   transition: border-color 0.2s;
 }
@@ -39,4 +39,19 @@
 }
 #hero button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#hero .jumpLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#hero .jumpLink * {
+  font-size: calc(0.75rem + 1vw);
+}
+
+#hero .jumpLink *:nth-child(even) {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
