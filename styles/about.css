@@ -15,8 +15,7 @@ img {
   object-fit: cover;
   object-position: 50% 35%;
   border-radius: 10px;
-  margin-bottom: 4vh;
-  margin-top: 4vh;
+  margin: 2vh 0;
 }
 
 .blurbImages {
@@ -28,8 +27,8 @@ img {
 
 .interestBlurb {
   border-radius: 10px;
-  padding: 2vh 1vw;
-  margin: 6vh 2vw;
+  padding: 2vh 4vw;
+  margin: 6vh 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
