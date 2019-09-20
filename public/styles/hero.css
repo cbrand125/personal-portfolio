@@ -1,0 +1,57 @@
+#hero {
+  background: linear-gradient(rgba(76, 27, 100, 0.1), rgba(76, 27, 100, 0.5)),
+    url(../images/splash.JPG);
+  height: 70vh;
+  min-height: 250px;
+  background-size: cover;
+  background-position: 50% 35%;
+  padding: 10vh 5vw;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+#hero .title,
+#hero .subtitle {
+  color: hsl(280, 57%, 98%);
+  width: 65%;
+  margin: 3vh;
+}
+
+#hero .subtitle a * {
+  color: hsl(280, 57%, 98%);
+  border-bottom: 0.1vw solid transparent;
+  transition: border-color 0.2s;
+}
+#hero .subtitle a:hover * {
+  border-bottom: 0.1vw solid hsl(280, 57%, 98%);
+  transition: border-color 0.2s;
+}
+
+#hero button {
+  color: hsl(280, 57%, 98%);
+  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
+    0.5px 0.5px 0 black;
+  border: 1px solid hsl(280, 57%, 98%);
+}
+#hero button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#hero .jumpLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#hero .jumpLink * {
+  font-size: calc(0.75rem + 1vw);
+}
+
+#hero .jumpLink *:nth-child(even) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

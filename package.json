@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "cd ./hexo && npx hexo generate && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrand125/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbrand125/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/cbrand125/personal-portfolio#readme",
+  "dependencies": {
+    "hexo": "^3.9.0"
+  }
+}
