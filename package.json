@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "cd ./hexo && npx hexo generate && cd ..",
-    "push": "npm run generate && git push"
+    "generate": "cd ./hexo && npx hexo generate && cd .."
   },
   "repository": {
     "type": "git",
