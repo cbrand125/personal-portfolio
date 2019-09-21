@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Cody's Dev Blog
+subtitle: full-stack web dev and javascript fun
 description:
-keywords:
-author: John Doe
+keywords: site,development,software,js,front-end,back-end,frontend,backend,fullstack,javascript
+author: Cody Brand
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://codybrand.dev
+url: https://codybrand.dev/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
