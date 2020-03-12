@@ -1,8 +1,15 @@
 export default {
+  loltracker: {
+    image: '../images/lolicon.png',
+    description:
+      "Since I help run a weekly series for League of Legends where teams are made up of drafted attendees, it quickly became apparent that there needs to be some way of tracking player statistics. This is a full-stack React/Express application meant to allow users to save their game results data under different tournament names. Then, that tournament can be shared and viewed by everyone to see a collection of player calculated player statistics and preferences. This has made for a lot better experience than the cumbersome spreadsheet we started with! This was also a great learning experience for using the Riot API!",
+    demoLink: 'https://lih.netlify.com/view?name=test',
+    codeLink: 'https://github.com/cbrand125/lol-inhouse'
+  },
   flow: {
     image: '../images/flow.png',
     description:
-      "This is a full-stack web project still in progress! I'm working on a team of 4 in an Agile/Scrum environment. We have biweekly sprints to continue to add on functionality. The vision for this site is to be a time-sensitive and personalized homepage that offers useful functionality. Our focus is on tab-management and improving upon the browser's deficiencies in this regard. Instead of hoping to find what you're looking for through the the labyrinthine menus of the browser history, Flow just remembers what you closed and shows them to you in a nice and visual format. From here, the user can organize and categorize the tabs long after they've been closed. No more being afraid of closing browsers with an overwhelming amount of tabs!",
+      "This is a full-stack web project I worked on with a small team in an Agile/Scrum environment. It was also my first foray into a Chrome Extension and those related technologies. Our focus was on tab-management and improving upon the browser's deficiencies in this regard. Instead of hoping to find what you're looking for through the the labyrinthine menus of the browser history, Flow just remembers what you closed and shows them to you in a nice and visual format. From here, the user can organize and categorize the tabs long after they've been closed. No more being afraid of closing browsers with an overwhelming amount of tabs!",
     demoLink: 'https://www.flowhome.us',
     codeLink: 'https://www.github.com/flow-homepage'
   },
@@ -16,10 +23,10 @@ export default {
   mtg: {
     image: '../images/mtgScreenshot.png',
     description:
-      "This application is a long time coming. Initially, it was/is a mobile Android app that I made to solve a problem for myself. Building a Magic deck requires 20-30 specific land cards to support the other 20-30 cards you want to play. No other application uses the correct models to help choose those lands. Now, I'm working with a friend to make this into a full-fledged web-app to be more accessible. It isn't just for me, this is something the Magic community at large could use and we endeavor to make these complicated concepts easy to understand and use! For now though, the materials on this page will link to my initial Android application.",
+      "This application is a long time coming. Initially, it was/is a mobile Android app that I made to solve a problem for myself. Now, it's a full-stack React application! Building a Magic deck requires 20-30 specific land cards to support the other 20-30 cards you want to play. No other application uses the correct models to help choose those lands. Now, I'm working with a friend to make this into a full-fledged web-app to be more accessible. It isn't just for me, this is something the Magic community at large could use and we endeavor to make these complicated concepts easy to understand and use!",
     demoLink:
-      'https://play.google.com/store/apps/details?id=com.codybrand.landcalculator',
-    codeLink: 'https://github.com/cbrand125/MTGManaApp2018'
+      'https://mtgland.netlify.com',
+    codeLink: 'https://github.com/mtg-calculator'
   },
   blackjack: {
     image: '../images/blackjackScreenshot.png',
