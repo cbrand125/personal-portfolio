@@ -1,6 +1,6 @@
 export default {
   loltracker: {
-    image: '../images/lolicon.png',
+    image: '../images/loltrackerscreenshot.png',
     description:
       "Since I help run a weekly series for League of Legends where teams are made up of drafted attendees, it quickly became apparent that there needs to be some way of tracking player statistics. This is a full-stack React/Express application meant to allow users to save their game results data under different tournament names. Then, that tournament can be shared and viewed by everyone to see a collection of player calculated player statistics and preferences. This has made for a lot better experience than the cumbersome spreadsheet we started with! This was also a great learning experience for using the Riot API!",
     demoLink: 'https://lih.netlify.com/view?name=test',
